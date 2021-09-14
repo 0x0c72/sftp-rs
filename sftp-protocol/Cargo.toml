@@ -1,0 +1,19 @@
+[package]
+name = "sftp_protocol"
+version = "0.1.0"
+authors = ["Mike Cronce <mike@quadra-tec.net>"]
+edition = "2018"
+
+[dependencies]
+bitflags = "1"
+chrono = "0.4"
+circular = "0.3"
+enum_dispatch = {version = "0.3", git = "https://gitlab.com/mcronce/enum_dispatch", branch = "associated-consts"}
+nix = "0.19"
+nom = "6"
+nom-derive = "0.7"
+serde = {version = "1", features = ["derive"]}
+serde_repr = "0.1"
+thiserror = "1"
+uuid = {version = "0.8", features = ["serde", "v4"]}
+

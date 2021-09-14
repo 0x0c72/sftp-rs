@@ -1,0 +1,7 @@
+[workspace]
+members = [
+	"sftp-protocol",
+	"sftp-server",
+	"sftp-filesystem"
+]
+
